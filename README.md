@@ -7,9 +7,9 @@
 
 Нужно сделать файл исполняемым:
 ```bash
-chmod +x spark-hive.sh
+chmod +x run.sh
 ```
 И запустить файл spark-hive.sh, передав имена нод и имя пользователя в качестве параметров следующим образом:
 ```bash
-./spark-hive.sh <jump_node> <name_node> <team_user>
+./run.sh <jump_node> <name_node> <team_user>
 ```
